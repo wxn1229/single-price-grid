@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Outfit:wght@300;400;600&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+html{
+  width: 100%;
+  height: 100%;
+}
+body{
+  width: 100%;
+  height: 100%;
+  background-color: hsl(218, 22%, 67%) ;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  font-size: 16px;
+  font-family: "Karla" ;
+
+}
+.container{
+  width: 300px;
+  height: 87%;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+
+
+}
+.join , .price, .whyus{
+  width: 100%;
+  display: flex;
+  flex:1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px 20px;
+}
+
+h1{
+  font-size: 18px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  margin:20px 0;
+
+}
+
+.join h1{
+  color:hsl(179, 61%, 44%);
+}
+
+.join h2{
+  color:hsl(71, 73%, 54%);
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.join p{
+  color: hsl(220, 6%, 80%);
+  line-height: 1.5;
+  margin-bottom: 25px;
+  font-weight: 0;
+}
+
+.price{
+  background-color: hsl(179, 61%, 44%);
+  color: white;
+  height: 30%;
+}
+
+.price h2{
+  display: flex;
+  align-items: center;
+  color: hsl(180, 100%, 89%);
+}
+
+.price span{
+  font-weight: 900;
+  font-size: 34px;
+  color: white;
+  margin-right: 10px;
+}
+
+.price h3{
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.price a{
+  display: flex;
+  width: 100%;
+  height: 50px;
+  border-radius: 8px;
+  background-color: hsl(71, 73%, 54%);
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 500;
+  box-shadow: 10px 10px 10px hsl(168, 53%, 41%);
+  
+}
+
+.whyus {
+  color: white;
+  background-color: hsl(179, 47%, 52%);
+  line-height: 1.5;
+}
