@@ -108,3 +108,56 @@ h1{
   background-color: hsl(179, 47%, 52%);
   line-height: 1.5;
 }
+
+@media only screen and (min-width: 768px ){
+  
+  .container{
+    width: 700px;
+    height: 500px;
+    flex-direction: row;
+    align-items: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+
+  }
+  .join{
+    min-width: 700px;
+    height: 40%;
+
+  }
+
+  .price, .whyus{
+    width: 350px;
+    height: 60%;
+    padding: 20px 20px;
+
+
+  }
+
+  .whyus *, .price > * {
+    margin-left: 20px;
+  }
+
+  .price a{
+    width: 90%;
+    margin-top: 30px;
+  }
+
+  .join{
+    padding:15px 20px;
+    margin-left: 20px;
+  }
+
+  .join h1{
+    font-size: 24px;
+  }
+
+  .price h2  {
+    margin-top: 24px;
+    margin-bottom: 10px;
+  }
+  .price h3{
+    margin-bottom: 0px;
+  }
+  
+}
